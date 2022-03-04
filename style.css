@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.watch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 10px;
+    display: flex;
+    border: 1px solid skyblue ;
+}
+
+.btn_start{
+    background-color: skyblue;
+    color: whitesmoke;
+}
+
+.btn_pause{
+    background-color: #ee5253;
+    color: whitesmoke;
+}
+
+.btn_restart{
+    background-color: #feca57;
+    color: whitesmoke;
+}
+
